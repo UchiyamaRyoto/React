@@ -1,0 +1,42 @@
+/* styles.css */
+.page-content {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .page-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #555;
+  }
+
+  
+  /* .page-content内のul要素にリストのマーカーを消す */
+.page-content ul {
+    padding-left: 0; /* 左側の余白を消す */
+    list-style-type: none; /* リストのマーカー（・）を消す */
+  }
+  
+  /* ボタンの透過化 */
+  .page-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent; /* ボタンの背景色を透過に */
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+
+  
